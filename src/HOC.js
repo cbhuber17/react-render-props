@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// HOCs start with "with"
 export default function withToggles(WrappedComponent) {
   return function List(props) {
     const [isOpen, setIsOpen] = useState(true);
